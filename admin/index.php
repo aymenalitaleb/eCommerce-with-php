@@ -1,10 +1,13 @@
 <?php
+include "init.php";
+include $tpl . "header.php";
+include 'includes/languages/english.php'
 
-include "includes/templates/header.php";
 ?>
-This is content <i class="fa fa-home fa-5x" ></i>
+
 <?php
 
-include "includes/templates/footer.php";
+echo lang('MESSAGE');
 
 ?>
+<?php include $tpl . "footer.php";?>
